@@ -42,3 +42,4 @@ $ehbct = fgets(STDIN);
 echo "Result : ";
 echo base64_decode($ehbct);
 echo "\n \n";
+}
