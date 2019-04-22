@@ -1,3 +1,13 @@
+echo "
+  _    _      _     _           _      __   __
+ | |  | |    | |   (_)         | |     \ \ / /
+ | |__| | ___| |__  _ _ __ ___ | |_ ___ \ V / 
+ |  __  |/ _ \ '_ \| | '__/ _ \| __/ _ \ > <  
+ | |  | |  __/ |_) | | | | (_) | ||  __// . \ 
+ |_|  |_|\___|_.__/|_|_|  \___/ \__\___/_/ \_\
+                                              
+";                                              
+					      
 echo "[1] Base64 Encoder\n[2] MD5 Encrypter\n[3] Password Generator\n[4] Base64 Decoder\n";
 echo "What do you want? : ";
 $option = fgets(STDIN);
