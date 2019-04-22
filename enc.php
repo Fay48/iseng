@@ -1,4 +1,4 @@
-<?php
+
 // Encrypter Tools
 // Author : HebiroteX
 echo "[1] Base64 Encoder\n[2] MD5 Encrypter";
@@ -21,4 +21,3 @@ echo "Result : ";
 echo md5($ehbct);
 echo "\n \n";
 }
-?>
