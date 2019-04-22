@@ -1,6 +1,4 @@
-// Encrypter Tools
-// Author : HebiroteX
-echo "[1] Base64 Encoder\n[2] MD5 Encrypter\n[3] Password Generator\n";
+echo "[1] Base64 Encoder\n[2] MD5 Encrypter\n[3] Password Generator\n[4] Base64 Decoder\n";
 echo "What do you want? : ";
 $option = fgets(STDIN);
 // Function Base64 Encode
@@ -37,3 +35,10 @@ echo "Result : ";
 print passwd($ehbct);
 echo "\n \n";
 }
+if(trim($option) == "4"){
+echo "=================| Base64 Decoder |=================\n \n";
+echo "Value : ";
+$ehbct = fgets(STDIN);
+echo "Result : ";
+echo base64_decode($ehbct);
+echo "\n \n";
