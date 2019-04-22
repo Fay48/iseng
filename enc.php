@@ -1,7 +1,7 @@
 
 // Encrypter Tools
 // Author : HebiroteX
-echo "[1] Base64 Encoder\n[2] MD5 Encrypter";
+echo "[1] Base64 Encoder\n[2] MD5 Encrypter\n";
 echo "What do you want? : ";
 $option = fgets(STDIN);
 // Function Base64 Encode
