@@ -1,7 +1,7 @@
 <?php
 // CHAT ID is YOUR TARGET
 // TEXT is MESSAGE FOR YOUR TARGET
-// 
+// Created by HebiroteX
 echo "
   _    _      _     _           _      __   __
  | |  | |    | |   (_)         | |     \ \ / /
